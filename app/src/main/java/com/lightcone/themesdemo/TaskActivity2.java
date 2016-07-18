@@ -1,9 +1,9 @@
 package com.lightcone.themesdemo;
 
-import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * The class is TaskActivity2 is invoked whenever Task2 is chosen from the button menu in
@@ -13,7 +13,7 @@ import android.preference.PreferenceManager;
  *
  */
 
-public class TaskActivity2 extends Activity {
+public class TaskActivity2 extends AppCompatActivity {
 
     private int currentTheme;
     private boolean isLight;
@@ -62,9 +62,9 @@ public class TaskActivity2 extends Activity {
         }
 
         if(isLight) {
-            setTheme(R.style.HoloLightCustom);
+            setTheme(R.style.LightCustom);
         } else {
-            setTheme(R.style.HoloCustom);
+            setTheme(R.style.DarkCustom);
         }
     }
 }

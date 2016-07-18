@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
@@ -22,7 +23,7 @@ import android.view.View.OnLongClickListener;
  *
  */
 
-public class DisplayItems extends Activity implements OnClickListener,
+public class DisplayItems extends AppCompatActivity implements OnClickListener,
         OnLongClickListener {
 
     private static final String TAG = "THEMES"; // Debugging tag
@@ -205,9 +206,9 @@ public class DisplayItems extends Activity implements OnClickListener,
         }
 
         if(isLight) {
-            setTheme(R.style.HoloLightCustom);
+            setTheme(R.style.LightCustom);
         } else {
-            setTheme(R.style.HoloCustom);
+            setTheme(R.style.DarkCustom);
         }
     }
 
