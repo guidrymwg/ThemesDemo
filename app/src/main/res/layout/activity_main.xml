@@ -10,6 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <ImageView
+        android:id="@+id/NiceLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:src="@drawable/bugroid"
+        android:textSize="18sp" />
+
     <TextView
         android:id="@+id/TextView1"
         android:layout_width="wrap_content"
@@ -20,19 +30,9 @@
         android:ems="10"
         android:gravity="center"
         android:paddingBottom="15dp"
-        android:paddingTop="15dp"
+        android:paddingTop="5dp"
         android:textSize="20sp" >
     </TextView>
-
-    <ImageView
-        android:id="@+id/NiceLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:padding="1dp"
-        android:src="@drawable/bugroid"
-        android:textSize="18sp" />
 
     <Button
         android:id="@+id/createButton"
