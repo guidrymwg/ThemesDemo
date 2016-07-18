@@ -8,8 +8,6 @@ import android.preference.PreferenceManager;
 /**
  * The Class Help defines a Help screen for the main Activity ThemesDemo.
  *
- * @author Mike Guidry
- *
  */
 
 public class Help extends Activity {
@@ -44,14 +42,11 @@ public class Help extends Activity {
             isLight = true;
         }
 
-        // The custom dialog themes DialogNoTitle and DialogNoTitleDark are defined in
-        // res/values/style.xml
+        // The custom dialog themes are defined in res/values/style.xml
 
         if(isLight) {
-            //setTheme(R.style.DialogNoTitle);
             setTheme(R.style.MyDialogLight);
         } else {
-            //setTheme(R.style.DialogNoTitleDark);
             setTheme(R.style.MyDialogDark);
         }
     }

@@ -5,13 +5,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-/**
- * The class About defines and "About" information screen for the project.
- *
- * @author Mike Guidry
- *
- */
-
 public class About extends Activity {
 
     private int currentTheme;
@@ -45,14 +38,11 @@ public class About extends Activity {
             isLight = true;
         }
 
-        // The custom dialog themes DialogNoTitle and DialogNoTitleDark are defined in
-        // res/values/style.xml
+        // The custom dialog themes are defined in res/values/style.xml
 
         if(isLight) {
-            //setTheme(R.style.DialogNoTitle);
             setTheme(R.style.MyDialogLight);
         } else {
-            //setTheme(R.style.DialogNoTitleDark);
             setTheme(R.style.MyDialogDark);
         }
     }

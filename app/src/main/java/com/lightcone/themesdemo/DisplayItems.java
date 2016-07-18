@@ -1,6 +1,5 @@
 package com.lightcone.themesdemo;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -18,9 +17,6 @@ import android.view.View.OnLongClickListener;
  * be chosen. Short presses on the buttons launch the tasks. Long presses open a
  * dialog box giving a description of the task and the option to execute it from
  * there.
- *
- * @author Mike Guidry
- *
  */
 
 public class DisplayItems extends AppCompatActivity implements OnClickListener,
@@ -126,20 +122,20 @@ public class DisplayItems extends AppCompatActivity implements OnClickListener,
      * user and has buttons to either launch the task or cancel the dialog.
      * Which task to present is controlled by the value of the int
      * buttonPressed, which is stored if a button is pressed or long-pressed.
-     *
+     * <p>
      * In this example we use an older approach to launching a dialog using the
      * AlertDialog class.  In MainActivity.java of this project we illustrate a
      * similar task using the more modern DialogFragment class. See
-     *
-     *    http://developer.android.com/guide/topics/ui/dialogs.html
-     *
+     * <p>
+     * http://developer.android.com/guide/topics/ui/dialogs.html
+     * <p>
      * for further discussion.
      */
 
     private void showTask(String title, String message, int icon, Context context) {
 
         int alertTheme = R.style.LightCustom;
-        if(currentTheme == 2){
+        if (currentTheme == 2) {
             alertTheme = R.style.DarkCustom;
         }
 
@@ -191,7 +187,7 @@ public class DisplayItems extends AppCompatActivity implements OnClickListener,
 
     // Method to check SharedPreferences and set the current theme
 
-    private void toggleTheme(){
+    private void toggleTheme() {
 
         // Following options to change the Theme must precede setContentView().
 
@@ -199,18 +195,17 @@ public class DisplayItems extends AppCompatActivity implements OnClickListener,
         String lister = sharedPref.getString("list_preference", "1");
 
         currentTheme = Integer.parseInt(lister);
-        if(currentTheme == 2){
+        if (currentTheme == 2) {
             isLight = false;
         } else {
             isLight = true;
         }
 
-        if(isLight) {
+        if (isLight) {
             setTheme(R.style.LightCustom);
         } else {
             setTheme(R.style.DarkCustom);
         }
     }
-
 }
 

@@ -9,8 +9,6 @@ import android.support.v7.app.AppCompatActivity;
  * The class is TaskActivity1 is invoked whenever Task1 is chosen from the button menu in
  * the class DisplayItems.
  *
- * @author Mike Guidry
- *
  */
 
 public class TaskActivity1 extends AppCompatActivity {

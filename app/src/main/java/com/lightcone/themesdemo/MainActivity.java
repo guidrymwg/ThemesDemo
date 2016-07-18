@@ -26,9 +26,6 @@ import android.widget.Toast;
  * The class MainActivity is the initial activity for the project ThemesDemo, which gives a
  * demonstration of using styles and themes, defining custom styles, changing the theme at
  * runtime, and persistent storage of settings using SharedPreferences with fragments.
- *
- * @author Mike Guidry
- *
  */
 
 public class MainActivity extends FragmentActivity implements OnClickListener, OnLongClickListener{
