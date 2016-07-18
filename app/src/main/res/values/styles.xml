@@ -69,6 +69,13 @@
         <item name="android:textColor">@color/mainTextColor</item>
     </style>
 
+    <style name="DarkCustom" parent="Theme.AppCompat.DayNight">
+        <!--        <item name="android:windowBackground">@color/bgcolor</item>
+                <item name="android:colorBackground">@color/bgcolor</item>
+                <item name="android:actionBarStyle">@style/GrayActionBar</item>
+                <item name="android:textColor">@color/buttontextcolor</item>-->
+    </style>
+
     <style name="MyDialogLight" parent="Theme.AppCompat.Light.Dialog.Alert">
         </style>
 

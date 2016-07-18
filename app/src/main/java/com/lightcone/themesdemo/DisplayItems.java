@@ -139,7 +139,7 @@ public class DisplayItems extends Activity implements OnClickListener,
 
         int alertTheme = R.style.LightCustom;
         if(currentTheme == 2){
-            alertTheme = R.style.HoloCustom;
+            alertTheme = R.style.DarkCustom;
         }
 
         AlertDialog alertDialog = new AlertDialog.Builder(context, alertTheme).create();
@@ -207,7 +207,7 @@ public class DisplayItems extends Activity implements OnClickListener,
         if(isLight) {
             setTheme(R.style.LightCustom);
         } else {
-            setTheme(R.style.HoloCustom);
+            setTheme(R.style.DarkCustom);
         }
     }
 

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ffc107</color>
+    <color name="colorPrimaryDark">#795548</color>
+    <color name="colorAccent">#FFc107</color>
 
-    <color name="bgcolor">#ffffffff</color>
-    <color name="bgcolor2">#ffaaaaaa</color>
-    <color name="buttontextcolor">#ff000000</color>
-    <color name="titleColor">#ffeeffee</color>
-    <color name="dialogTextColor">#ffeefeee</color>
-    <color name="mainTextColor">#ffffffff</color>
-    <color name="bar_brown">#ffff9800</color>
-    <color name="bar_gray">#ff444444</color>
-    <color name="dialog_brown">#ff867961</color>
+    <color name="bgcolor">#ffffff</color>
+    <color name="bgcolor2">#b6b6b6</color>
+    <color name="buttontextcolor">#212121</color>
+    <color name="titleColor">#b6b6b6</color>
+    <color name="dialogTextColor">#b6b6b6</color>
+    <color name="mainTextColor">#ffffff</color>
+    <color name="bar_brown">#ffc107</color>
+    <color name="bar_gray">#727272</color>
+    <color name="dialog_brown">#d7ccc8</color>
 </resources>
