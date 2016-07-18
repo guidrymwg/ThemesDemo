@@ -51,6 +51,13 @@
         <item name="android:textColor">@color/buttontextcolor</item>
     </style>
 
+    <style name="LightCustom" parent="Theme.AppCompat.Light.DarkActionBar">
+<!--        <item name="android:windowBackground">@color/bgcolor</item>
+        <item name="android:colorBackground">@color/bgcolor</item>
+        <item name="android:actionBarStyle">@style/GrayActionBar</item>
+        <item name="android:textColor">@color/buttontextcolor</item>-->
+    </style>
+
     <!-- Customize the Holo theme -->
 
     <style name="HoloCustom" parent="@android:style/Theme.Holo">

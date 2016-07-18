@@ -137,7 +137,7 @@ public class DisplayItems extends Activity implements OnClickListener,
 
     private void showTask(String title, String message, int icon, Context context) {
 
-        int alertTheme = R.style.HoloLightCustom;
+        int alertTheme = R.style.LightCustom;
         if(currentTheme == 2){
             alertTheme = R.style.HoloCustom;
         }
@@ -205,7 +205,7 @@ public class DisplayItems extends Activity implements OnClickListener,
         }
 
         if(isLight) {
-            setTheme(R.style.HoloLightCustom);
+            setTheme(R.style.LightCustom);
         } else {
             setTheme(R.style.HoloCustom);
         }

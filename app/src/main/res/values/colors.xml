@@ -4,13 +4,13 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="bgcolor">#fff2eadc</color>
+    <color name="bgcolor">#ffffffff</color>
     <color name="bgcolor2">#ffaaaaaa</color>
     <color name="buttontextcolor">#ff000000</color>
     <color name="titleColor">#ffeeffee</color>
     <color name="dialogTextColor">#ffeefeee</color>
     <color name="mainTextColor">#ffffffff</color>
-    <color name="bar_brown">#ffc0ae91</color>
+    <color name="bar_brown">#ffff9800</color>
     <color name="bar_gray">#ff444444</color>
     <color name="dialog_brown">#ff867961</color>
 </resources>
