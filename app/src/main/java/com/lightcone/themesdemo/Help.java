@@ -48,9 +48,11 @@ public class Help extends Activity {
         // res/values/style.xml
 
         if(isLight) {
-            setTheme(R.style.DialogNoTitle);
+            //setTheme(R.style.DialogNoTitle);
+            setTheme(R.style.MyDialogLight);
         } else {
-            setTheme(R.style.DialogNoTitleDark);
+            //setTheme(R.style.DialogNoTitleDark);
+            setTheme(R.style.MyDialogDark);
         }
     }
 }

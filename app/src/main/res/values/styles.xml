@@ -62,4 +62,11 @@
         <item name="android:textColor">@color/mainTextColor</item>
     </style>
 
+    <style name="MyDialogLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        </style>
+
+    <style name="MyDialogDark" parent="Theme.AppCompat.Dialog.Alert">
+        </style>
+
+
 </resources>

@@ -236,8 +236,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener, O
 
     private void showErrorAlert(String title, String message, int icon, Context context){
 
-        int theme = AlertDialog.THEME_HOLO_DARK;
-        if(isLight) theme = AlertDialog.THEME_HOLO_LIGHT;
+        int theme = R.style.MyDialogDark; //AlertDialog.THEME_HOLO_DARK;
+        if(isLight) theme = R.style.MyDialogLight; //AlertDialog.THEME_HOLO_LIGHT;
 
         makeDialog(context, title, message, true, true, theme, icon, null);
     }
