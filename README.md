@@ -5,7 +5,7 @@ The projects in these repositories correspond to individual lessons in the free 
 
 ## Prerequisites
 This project assumes the Gradle build system in Android Studio. It was targeted at Android 6.0 (API 23) but 
-should be compatible with API 17 and beyond.  You will need
+should be compatible with API 19 and beyond.  You will need
 
  - Android Studio (<a href="https://developer.android.com/studio/install.html" target="_new">Installing Android Studio</a>)
  - An Android phone or tablet, or an Android phone or tablet emulator launched from Android Studio
