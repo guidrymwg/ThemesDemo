@@ -48,7 +48,7 @@
         <item name="android:windowBackground">@color/bgcolor</item>
         <item name="android:colorBackground">@color/bgcolor</item>
         <item name="android:actionBarStyle">@style/BrownActionBar</item>
-        <item name="android:textColor">@color/bar_brown</item>
+        <item name="android:textColor">@color/buttontextcolor</item>
     </style>
 
     <!-- Customize the Holo theme -->

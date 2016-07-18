@@ -26,8 +26,15 @@ public class Prefs extends PreferenceActivity {
 
     @Override
     public void onBuildHeaders(List<Header> target) {
-        loadHeadersFromResource(R.xml.preference_headers, target);
+            loadHeadersFromResource(R.xml.preference_headers, target);
+    }
 
+    // Required because of a vulnerability.  See
+    // http://stackoverflow.com/questions/19973034/isvalidfragment-android-api-19
+
+    protected boolean isValidFragment(String fragmentName) {
+        return Prefs1Fragment.class.getName().equals(fragmentName) ||
+                Prefs2Fragment.class.getName().equals(fragmentName);
     }
 
     // Fragment showing preferences corresponding to the first header.  See
