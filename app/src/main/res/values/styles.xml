@@ -31,7 +31,7 @@
         <item name="android:textColor">@color/buttontextcolor</item>
     </style>
 
-    <!-- Customize the Holo.Light theme -->
+    <!-- Customize the theme -->
 
 
     <!-- First define a custom ActionBar color -->

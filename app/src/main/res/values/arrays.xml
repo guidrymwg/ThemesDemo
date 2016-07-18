@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="labels_list_preference">
-        <item>Custom Holo Light</item>
-        <item>Custom Holo Dark</item>
+        <item>Custom Light Theme</item>
+        <item>Custom Dark Theme</item>
     </string-array>
 
     <string-array name="values_list_preference">

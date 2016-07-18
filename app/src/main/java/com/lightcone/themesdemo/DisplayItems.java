@@ -205,9 +205,9 @@ public class DisplayItems extends Activity implements OnClickListener,
         }
 
         if(isLight) {
-            setTheme(R.style.LightCustom);
+            setTheme(R.style.HoloLightCustom);
         } else {
-            setTheme(R.style.DarkCustom);
+            setTheme(R.style.HoloCustom);
         }
     }
 
