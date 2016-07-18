@@ -1,16 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/mainpage_horizontal_margin"
+    android:paddingRight="@dimen/mainpage_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.lightcone.themesdemo.MainActivity">
+    tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/TextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_above="@+id/createButton"
+        android:layout_below="@+id/NiceLogo"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textSize="20sp" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/NiceLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:src="@drawable/bugroid"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/errorDemoButton"
+        android:layout_alignLeft="@+id/errorDemoButton"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/createLabel" />
+
+    <Button
+        android:id="@+id/errorDemoButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/error_demo_label" />
+
 </RelativeLayout>
