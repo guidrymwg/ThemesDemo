@@ -13,23 +13,27 @@
     <!-- Apply using attribute android:theme="@style/DialogNoTitle in manifest file for activity, -->
     <!-- or setTheme(R.style.DialogNoTitle) before setContentView() in code. -->
 
+<!--
     <style name="DialogNoTitle" parent="@android:style/Theme.Dialog">
 
-        <!-- hide the Window Title -->
+        &lt;!&ndash; hide the Window Title &ndash;&gt;
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/bgcolor</item>
         <item name="android:colorBackground">@color/bgcolor</item>
         <item name="android:textColor">@color/dialog_brown</item>
     </style>
+-->
 
+<!--
     <style name="DialogNoTitleDark" parent="@android:style/Theme.Dialog">
 
-        <!-- hide the Window Title -->
+        &lt;!&ndash; hide the Window Title &ndash;&gt;
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/bgcolor2</item>
         <item name="android:colorBackground">@color/bgcolor</item>
         <item name="android:textColor">@color/buttontextcolor</item>
     </style>
+-->
 
     <!-- Customize the theme -->
 
@@ -52,13 +56,9 @@
     </style>
 
     <style name="LightCustom" parent="Theme.AppCompat.Light.DarkActionBar">
-<!--        <item name="android:windowBackground">@color/bgcolor</item>
-        <item name="android:colorBackground">@color/bgcolor</item>
-        <item name="android:actionBarStyle">@style/GrayActionBar</item>
-        <item name="android:textColor">@color/buttontextcolor</item>-->
     </style>
 
-    <!-- Customize the Holo theme -->
+    <!-- Customize the theme -->
 
     <style name="HoloCustom" parent="@android:style/Theme.Holo">
 
@@ -70,10 +70,6 @@
     </style>
 
     <style name="DarkCustom" parent="Theme.AppCompat.DayNight">
-        <!--        <item name="android:windowBackground">@color/bgcolor</item>
-                <item name="android:colorBackground">@color/bgcolor</item>
-                <item name="android:actionBarStyle">@style/GrayActionBar</item>
-                <item name="android:textColor">@color/buttontextcolor</item>-->
     </style>
 
     <style name="MyDialogLight" parent="Theme.AppCompat.Light.Dialog.Alert">

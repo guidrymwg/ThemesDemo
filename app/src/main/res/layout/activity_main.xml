@@ -10,6 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+
     <ImageView
         android:id="@+id/NiceLogo"
         android:layout_width="wrap_content"
