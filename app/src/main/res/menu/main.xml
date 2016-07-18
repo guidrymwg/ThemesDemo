@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/help_title"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="5"
+        android:showAsAction="ifRoom"
+        android:title="@string/about_title"/>
+    <item
+        android:id="@+id/prefs"
+        android:orderInCategory="10"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/quit"
+        android:orderInCategory="15"
+        android:showAsAction="never"
+        android:title="@string/quit_title"/>
+
+</menu>

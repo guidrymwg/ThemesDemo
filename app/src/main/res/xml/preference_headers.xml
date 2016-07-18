@@ -1,0 +1,31 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <header
+        android:fragment="com.lightcone.themesdemo.Prefs$Prefs1Fragment"
+        android:icon="@drawable/icon1"
+        android:summary="Choose a display style."
+        android:title="Styles" />
+    <header
+        android:fragment="com.lightcone.themesdemo.Prefs$Prefs2Fragment"
+        android:icon="@drawable/icon2"
+        android:summary="Choose your greeting name."
+        android:title="Greeting Name" >
+    </header>
+    <header
+        android:icon="@drawable/icon3"
+        android:summary="Webpage for styles and themes."
+        android:title="Styles and Themes Tutorial" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://developer.android.com/guide/topics/ui/themes.html" />
+    </header>
+    <header
+        android:icon="@drawable/icon4"
+        android:summary="A description of constructing this project"
+        android:title="This Project" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://eagle.phys.utk.edu/guidry/android/themesDemo.html" />
+    </header>
+
+</preference-headers>

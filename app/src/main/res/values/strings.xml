@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">ThemesDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">ThemesDemo</string>
+    <string name="createLabel">Create an Item</string>
+    <string name="quit_title">Exit</string>
+    <string name="error_demo_label">Show Error Dialog</string>
+    <string name="help_title">Help</string>
+    <string name="help_text">Use the Settings menu to change the display theme. \n\n<i>USAGE</i>\nYou can
+        toggle between light and dark themes for both the main displays and the dialog windows.
+        Notice that this textfield is wrapped in a scroll view, so should scroll if there is too
+        much text to fit in the window. \n\n<i>VERSION</i>\nThis example requires Android API 15 or above.</string>
+    <string name="about_text">This App demonstrates how to create Themes with compound
+         attributes and how to change the Theme at runtime and store the current theme in
+         shared preferences. It requires Android API 15 or above.</string>
+    <string name="about_title">About</string>
+    <string name="settings_title">Settings</string>
+    <string name="restart">Restart with New Style</string>
+    <string name="pref1_title">No titlebars</string>
+    <string name="pref1_summary">Suppress titlebars on screens</string>
+    <string name="pref2_title">Job priority</string>
+    <string name="pref2_summary">Set desired job priority</string>
+    <string name="pref3_title">Username</string>
+    <string name="pref3_summary">Edit the username</string>
+    <string name="pref4_title">Light background theme</string>
+    <string name="pref4_summary">Enable light background theme</string>
+    <string name="create_item1">Task Choice 1</string>
+    <string name="create_item2">Task Choice 2</string>
+    <string name="processMenu_title">Select Item</string>
+    <string name="task_description1">A description of Task 1 will go in this field.</string>
+    <string name="task_description2">A description of Task 2 will go in this field.</string>
 </resources>

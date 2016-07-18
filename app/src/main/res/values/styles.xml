@@ -8,4 +8,58 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!-- Use the Android Dialog theme as the base for a new compound theme DialogNoTitle -->
+    <!-- Apply using attribute android:theme="@style/DialogNoTitle in manifest file for activity, -->
+    <!-- or setTheme(R.style.DialogNoTitle) before setContentView() in code. -->
+
+    <style name="DialogNoTitle" parent="@android:style/Theme.Dialog">
+
+        <!-- hide the Window Title -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bgcolor</item>
+        <item name="android:colorBackground">@color/bgcolor</item>
+        <item name="android:textColor">@color/dialog_brown</item>
+    </style>
+
+    <style name="DialogNoTitleDark" parent="@android:style/Theme.Dialog">
+
+        <!-- hide the Window Title -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bgcolor2</item>
+        <item name="android:colorBackground">@color/bgcolor</item>
+        <item name="android:textColor">@color/buttontextcolor</item>
+    </style>
+
+    <!-- Customize the Holo.Light theme -->
+
+
+    <!-- First define a custom ActionBar color -->
+
+    <style name="BrownActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/bar_brown</item>
+    </style>
+
+    <style name="GrayActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/bar_gray</item>
+    </style>
+
+    <style name="HoloLightCustom" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/bgcolor</item>
+        <item name="android:colorBackground">@color/bgcolor</item>
+        <item name="android:actionBarStyle">@style/BrownActionBar</item>
+        <item name="android:textColor">@color/bar_brown</item>
+    </style>
+
+    <!-- Customize the Holo theme -->
+
+    <style name="HoloCustom" parent="@android:style/Theme.Holo">
+
+        <!-- <item name="android:windowNoTitle">true</item> -->
+        <item name="android:windowBackground">@color/bgcolor2</item>
+        <item name="android:colorBackground">@color/bgcolor2</item>
+        <item name="android:actionBarStyle">@style/GrayActionBar</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+    </style>
+
 </resources>

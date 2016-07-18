@@ -15,6 +15,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Help"
+            android:label="Help" >
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="Prefs"
+            >
+        </activity>
+        <activity
+            android:name=".DisplayItems"
+            android:label="Display Item Choices" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="About" >
+        </activity>
+        <activity
+            android:name=".TaskActivity1"
+            android:label="Task: Activity 1" >
+        </activity>
+        <activity
+            android:name=".TaskActivity2"
+            android:label="Task: Activity 2" >
+        </activity>
     </application>
 
 </manifest>
